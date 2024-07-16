@@ -6,9 +6,9 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Rachel Perrier</personname>
+      <department>Department of Mathematics</department>
+      <institution>Franciscan University of Steubenville</institution>
     </author>
     <date>
       <today />
@@ -18,7 +18,7 @@
   <colophon>
 
     <website>
-      <url href="https://pretextbook.org">My Website</url>
+      <url href="https://pretextbook.org">PreTeXt Documentation Website</url>
     </website>
 
     <copyright>

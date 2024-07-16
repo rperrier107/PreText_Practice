@@ -13,6 +13,8 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-chapter-title.ptx" />
+    
+    <xi:include href="./chapter2.ptx" />
 
 
     <!-- Include backmatter -->

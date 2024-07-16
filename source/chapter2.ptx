@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chapter 2</title>
+
+  <introduction>
+    <p> This is the second chapter of the book. </p>
+  </introduction>
+
+  <xi:include href="sec-section2.ptx" />
+
+</chapter>

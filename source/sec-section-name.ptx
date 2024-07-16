@@ -5,4 +5,23 @@
 
   <p> Text of section. </p>
 
+  <p>
+    <m>\sin^2(x)+\cos^2(x)=1</m>
+    <me>e^{\pi i}=-1</me>
+  </p>
+
+  <p>
+    <md>
+      <mrow>2+x \amp = 5</mrow>
+      <mrow number="yes">x \amp = 3</mrow>
+    </md>
+  </p>
+
+  <p>
+    <mdn>
+      <mrow>2+x \amp = 5</mrow>
+      <mrow number="no">x \amp = 3 </mrow>
+    </mdn>
+  </p>
+
 </section>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Other Fun Things :)</title>
+
+  <exercise label="Example">
+    <title>True/False</title>
+    <idx>something</idx>
+    <statement correct="yes">
+      <p>
+        This is a true statement.
+      </p>
+    </statement>
+    <feedback>
+      <p>
+        Do you want a paradox?
+      </p>
+    </feedback>
+    <hint>
+      <p>
+        Don't think about this too hard...
+      </p>
+    </hint>
+  </exercise>
+
+  <video youtube="BipvGD-LCjU"/>
+
+  <figure xml:id="graph1">
+    <caption>Graph</caption>
+    <image source="./images/Quiz5Graph1.png" width="50%"></image>
+  </figure>
+
+</section>
