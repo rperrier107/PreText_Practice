@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-worksheet" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Markov Chains and Steady-States</title>
+  <worksheet xml:id="ws-Practice">
+    <title>Markov Chains and Steady-States</title>
+    <page>
+        
+        
+        <introduction>
+            <p>
+                Overview: Markov Chains are a way of measuring the probability of repeated 
+                iterations of an event. We learn about 
+                transition matrices, powers of those 
+                matrices, and steady states.
+            </p>
+        </introduction>
+        <p>
+            Tasks for In-Class:
+            <!--This currently goes off the page in print mode.  Consider making the initial problem situation as an introduction
+                (or paragraph) and then make each task their own exercise. I can then break up activities over multiple pages.
+                At this time, there is not a way to break pages among different tasks.-->
+            <exercise>
+                <introduction><p>
+                    Consider a situation where a rental car company has two locations, <m>P</m> and <m>Q</m>, and customers have the ability to rent from either location and return to either location.  Suppose that <m>80\%</m> of the cars rented from <m>P</m> are returned to <m>P</m> and <m>60\%</m> of the cars rented from <m>Q</m> are returned to <m>Q</m>.
+                </p></introduction>
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            What percentage of the cars rented from <m>P</m> are returned to <m>Q</m>?  What percentage of the cars rented from <m>Q</m> are returned to <m>P</m>?
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            Form the probability vector for when cars are rented from <m>P</m>, and the probability vector for when cars are rented from <m>Q</m>.  Put those two vectors in teh columns of a matrix, <m>T</m>.  Does that seem similar to a process you've done before?
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            Now suppose that 100 cars were rented from <m>P</m> and 100 cars were rented from <m>Q</m>.  After one rent/return iteration, how many cars would we expect are in each location?
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            After two rent/return interations, how many cars whould we expect are in each location?
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            After three rent/return iterations, how many cars would we expect are in each location?
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            What pattern or tendency do you notice for your answers?
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="0.5in">
+                    <statement>
+                        <p>
+                            Use the Sage cell below to calculate <m>T\begin{bmatrix}100\\100\end{bmatrix}</m>, <m>T^2\begin{bmatrix}100\\100\end{bmatrix}</m>, and <m>T^3\begin{bmatrix}100\\100\end{bmatrix}</m>.
+                        </p>
+                        <sage>
+                            <input>
+                            ## Change the entries of T below to match your matrix
+                            ## The first set of brackets represents the top row.
+                            ## define the matrix A and x0
+                            T = matrix([[1,2],[3,4]])
+                            x0 = vector([100,100])
+                            T * x0
+                            </input>
+                            </sage>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            What do the entries of <m>T</m>, <m>T^2</m>, and <m>T^3</m> mean?
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            If the sequence of vectors <m>T\vec{v}, T^2\vec{v}, T^3\vec{v}, ...</m> is approaching one vector, call it <m>\vec{x}</m>, then <m>T\vec{x}=\vec{x}</m>.  What does that mean about <m>T</m> and <m>\vec{x}</m> (in light of last week's topic)?
+                        </p>
+                    </statement>
+                </task>
+            </exercise>     
+        </p>
+    </page>
+    
+  </worksheet>
+
+</section>

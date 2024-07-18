@@ -9,4 +9,6 @@
 
   <xi:include href="sec-section2.ptx" />
 
+  <xi:include href="sec-worksheet.ptx" />
+
 </chapter>
